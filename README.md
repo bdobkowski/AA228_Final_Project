@@ -1,4 +1,4 @@
-# AA228_Final_Project
+# Robot_Nav_POMDP
 Final Project for Stanford AA228: Decision Making Under Uncertainty
 
 Project: Setting up underwater robot navigation problem as a Partially Observable Markov Decision Process (POMDP). Solving for the optimal policy using various POMDP solvers.
