@@ -1,0 +1,36 @@
+digraph G
+{
+root [label="Y (s0) 1\lA (a0)\l" shape=doublecircle labeljust="l"];
+x0row1 [label="Y (s1) 1\lA (a3)\l"];
+x0row4 [label="Y (s4) 1\lA (a0)\l"];
+x0row10 [label="Y (s7) 1\lA (a3)\l"];
+x0row3 [label="Y (s2) 1\lA (a0)\l"];
+x0row9 [label="Y (s6) 1\lA (a3)\l"];
+x0row8 [label="Y (s17) 1\lA (a0)\l"];
+x0row7 [label="Y (s13) 1\lA (a0)\l"];
+x0row6 [label="Y (s8) 1\lA (a0)\l"];
+x0row2 [label="Y (s3) 1\lA (a0)\l"];
+x0row5 [label="Y (s5) 1\lA (a0)\l"];
+root -> x0row1 [label="o (o10) 0.3\l"];
+root -> x0row2 [label="o (o12) 0.7\l"];
+x0row1 -> root [label="o (o9) 0.15\l"];
+x0row1 -> x0row3 [label="o (o11) 0.7\l"];
+x0row1 -> x0row4 [label="o (o13) 0.15\l"];
+x0row3 -> x0row1 [label="o (o10) 0.3\l"];
+x0row3 -> x0row5 [label="o (o14) 0.7\l"];
+x0row5 -> x0row3 [label="o (o11) 0.15\l"];
+x0row5 -> x0row4 [label="o (o13) 0.15\l"];
+x0row5 -> x0row6 [label="o (o17) 0.7\l"];
+x0row4 -> x0row7 [label="o (o13) 1\l"];
+x0row7 -> x0row7 [label="o (o13) 1\l"];
+x0row6 -> x0row8 [label="o (o17) 1\l"];
+x0row8 -> x0row8 [label="o (o17) 1\l"];
+x0row2 -> root [label="o (o9) 0.15\l"];
+x0row2 -> x0row4 [label="o (o13) 0.15\l"];
+x0row2 -> x0row9 [label="o (o15) 0.7\l"];
+x0row9 -> x0row2 [label="o (o12) 0.3\l"];
+x0row9 -> x0row10 [label="o (o16) 0.7\l"];
+x0row10 -> x0row4 [label="o (o13) 0.15\l"];
+x0row10 -> x0row9 [label="o (o15) 0.15\l"];
+x0row10 -> x0row6 [label="o (o17) 0.7\l"];
+}
